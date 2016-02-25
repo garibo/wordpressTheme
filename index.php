@@ -15,7 +15,18 @@
 </head>
 <body>
 
-	<h1><?php bloginfo('name'); ?></h1>
+	<div id="wrapper">
+		<div class="container" class="group">
+			<header class="group">
+				<h1><img src="<?php print IMAGES; ?>/logo.jpg" alt="<?php bloginfo('name'); ?>"></h1>
+			</header>
+			<?php get_search_form(); ?>
+		</div>
+	</div>
+
+	<footer class="group">
+		
+	</footer>
 
 </body>
 </html>
