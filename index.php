@@ -21,12 +21,16 @@
 				<h1><img src="<?php print IMAGES; ?>/logo.jpg" alt="<?php bloginfo('name'); ?>"></h1>
 			</header>
 			<?php get_search_form(); ?>
+			<?php wp_nav_menu(array('menu' => 'Main', 'container'=>'nav')); ?>
 		</div>
 	</div>
 
 	<footer class="group">
-		
+		<p>
+			<?php bloginfo('name'); ?> - Todos los derechos reservaods.
+		</p>
 	</footer>
+	<?php wp_footer(); ?>
 
 </body>
 </html>
