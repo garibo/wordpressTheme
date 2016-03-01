@@ -10,12 +10,6 @@
 			<?php the_content('Read More...'); ?>
 			<?php endwhile ?>
 			<?php endif; ?>
-			<div class="navi">
-				<div class="right">
-					<?php previous_posts_link('Anterior'); ?> /
-					<?php next_posts_link('Siguiente'); ?>
-				</div>
-			</div>
 		</div>
 
 	</div>
